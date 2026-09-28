@@ -1,0 +1,36 @@
+<svg width="820" height="340" viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Courier New', monospace; font-size: 18px; }
+    .p { fill: #3fb950; }
+    .c { fill: #e6edf3; }
+    .o { fill: #36BCF7; }
+    .m { fill: #f0c674; }
+    .l { opacity: 0; animation: show 0.01s forwards; }
+    .d1 { animation-delay: 0.4s; } .d2 { animation-delay: 1.2s; }
+    .d3 { animation-delay: 2.0s; } .d4 { animation-delay: 2.8s; }
+    .d5 { animation-delay: 3.6s; } .d6 { animation-delay: 4.4s; }
+    .d7 { animation-delay: 5.2s; } .d8 { animation-delay: 6.0s; }
+    .cur { animation: blink 1s steps(1) 6.1s infinite; }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <rect x="1" y="1" width="818" height="338" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <path d="M1 15 A14 14 0 0 1 15 1 H805 A14 14 0 0 1 819 15 V44 H1 Z" fill="#161b22"/>
+  <circle cx="30" cy="23" r="7" fill="#ff5f56"/>
+  <circle cx="54" cy="23" r="7" fill="#ffbd2e"/>
+  <circle cx="78" cy="23" r="7" fill="#27c93f"/>
+  <text x="410" y="29" text-anchor="middle" fill="#8b949e" style="font-size:14px">andre@kali: ~/profil</text>
+
+  <g class="l d1"><text x="28" y="86"><tspan class="p">andre@kali</tspan><tspan class="c">:~$ whoami</tspan></text></g>
+  <g class="l d2"><text x="28" y="112" class="o">Andre Alfarid - Aceh, Indonesia</text></g>
+
+  <g class="l d3"><text x="28" y="152"><tspan class="p">andre@kali</tspan><tspan class="c">:~$ cat fokus.txt</tspan></text></g>
+  <g class="l d4"><text x="28" y="178" class="o">Keamanan Jaringan | Coding</text></g>
+
+  <g class="l d5"><text x="28" y="218"><tspan class="p">andre@kali</tspan><tspan class="c">:~$ cat hobi.txt</tspan></text></g>
+  <g class="l d6"><text x="28" y="244" class="o">Ngegame | Olahraga | Ngoding</text></g>
+
+  <g class="l d7"><text x="28" y="284"><tspan class="p">andre@kali</tspan><tspan class="c">:~$ echo $MOTTO</tspan></text></g>
+  <g class="l d8"><text x="28" y="310" class="m">"Hadapi semua rintangan walaupun sulit untuk diterima"</text></g>
+  <rect class="cur" x="622" y="294" width="10" height="20" fill="#e6edf3" opacity="0"/>
+</svg>
